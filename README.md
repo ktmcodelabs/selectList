@@ -4,7 +4,9 @@ jQuery selectList is a jquery plugin to move selected options from one select bo
 ## Documentation
 ### Usage
 Call selectList() function on any select box group element.
+
 __Example__
+
 	$('#select-list').selectList();
 
 ### Options
