@@ -41,7 +41,8 @@ __Example 1__
 	});
 
 ### HTML
-```<div id="select-list">
+```
+<div id="select-list">
 	<input type="text" id="fromListSearch" name="" placeholder="Search in available options list...">
 	<select id="fromList">
 		<option>Option 1</option>
