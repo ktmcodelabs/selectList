@@ -61,6 +61,7 @@ __Example 1__
 		<option>Option 2</option>
 		......
 	</select>
+</div>
 ```
 
 ### CSS
