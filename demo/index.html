@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>jQuery selectList</title>
+	<script src="selectList.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#select-list').selectList({
+				from: '#fromList',
+				to: '#toList',
+				sort: true,
+				adder: '#add',
+				remover: '#remove',
+				mover: '#move',
+				cleaner: '#clean',
+				notifier: 'select-highlight',
+				notifytimer: 800,
+				fromSearch:'#fromListSearch',
+				toSearch:'#toListSearch'
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<div id="select-list">
+		<input type="text" id="fromListSearch" name="" placeholder="Search in available options list...">
+		<select id="fromList">
+			<option>Option 1</option>
+			<option>Option 2</option>
+		</select>
+		<div class="buttons">
+			<button type="button" id="move"> >> </button>
+			<button type="button" id="add"> > </button>
+			<button type="button" id="remove"> < </button>
+			<button type="button" id="clean"> << </button>
+		</div>
+		<input type="text" id="toListSearch" name="" placeholder="Search in selected list...">
+		<select id="toList">
+		</select>
+	</div>
+</body>
+</html>
