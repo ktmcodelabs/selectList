@@ -10,7 +10,7 @@ __Example__
 	$('#select-list').selectList();
 
 ### Options
-The plugin accespts following options:
+The plugin accepts following options:
 
 * from (String) - Identifier of the selection list box to select the options from
 * to (String) - Identifier of he list box to move the selected list items to
