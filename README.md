@@ -39,3 +39,28 @@ __Example 1__
     fromSearch:'#fromListSearch',
     toSearch:'#toListSearch'
 	});
+
+### HTML
+
+<div id="select-list">
+	<input type="text" id="fromListSearch" name="" placeholder="Search in available options list...">
+	<select id="fromList">
+		<option>Option 1</option>
+		<option>Option 2</option>
+		......
+	</select>
+	<div class="buttons">
+		<button type="button" id="move"></button>
+		<button type="button" id="add"></button>
+		<button type="button" id="remove"></button>
+		<button type="button" id="clean"></button>
+	</div>
+	<input type="text" id="toListSearch" name="" placeholder="Search in selected list...">
+	<select id="toList">
+		<option>Option 1</option>
+		<option>Option 2</option>
+		......
+	</select>
+
+### CSS
+Please feel free to add your own style :)
