@@ -2,7 +2,7 @@
 jQuery selectList is a jquery plugin to move selected options from one select box to another. Move single, multiple or all options another select box. Also search and sort content of the options in the select box for easy access.
 
 ## Documentation
-###Usage
+### Usage
 Call selectList() function on any select box group element.
 __Example__
 	$('#select-list').selectList();
@@ -23,6 +23,7 @@ The plugin accespts following options:
 * toSearch (String) - Identifier of the search box to search and filter the options in selected options list by the content
 
 __Example 1__
+
 	$('#select-list').selectList({
 		from: '#fromList',
     to: '#toList',
