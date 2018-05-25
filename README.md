@@ -59,7 +59,8 @@ __Example 1__
 		<option>Option 1</option>
 		<option>Option 2</option>
 		......
-	</select>```
+	</select>
+```
 
 ### CSS
 Please feel free to add your own style :)
